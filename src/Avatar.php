@@ -33,7 +33,7 @@ class  Avatar
          * @var  $img_res
          */
         $img_res = imagecreate($this->config['width'], $this->config['height']);
-        $bg_color = imagecolorallocate($img_res, mt_rand(120, 190), mt_rant(120, 190), mt_rant(120, 190));
+        $bg_color = imagecolorallocate($img_res, mt_rand(120, 190), mt_rand(120, 190), mt_rand(120, 190));
         $font_color = imagecolorallocate($img_res, mt_rand(190, 255), mt_rand(190, 255), mt_rand(190, 255));
         // 填充背景色
         imagefill($img_res, 1, 1, $bg_color);
