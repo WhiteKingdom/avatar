@@ -53,7 +53,7 @@ class  Avatar
      */
     public function output($name, $path = false)
     {
-        $img_res = this->$this->generate($name);
+        $img_res = $this->generate($name);
         $content_type = 'image/' . $this->config['type'];
         $generateMethodName='image'.$this->config['type'];
         // 确定是否输出到浏览器
