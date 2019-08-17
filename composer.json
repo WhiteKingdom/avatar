@@ -1,0 +1,12 @@
+{
+    "name": "whiteki/avatar",
+    "description": "学习如何发布扩展包，文字生成图片",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "whitek",
+            "email": "whiteki@qq.com"
+        }
+    ],
+    "require": {}
+}
