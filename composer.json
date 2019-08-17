@@ -8,5 +8,15 @@
             "email": "whiteki@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Whiteki\\Avatar\\": "packages/whiteki/avatar/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Whiteki\\Avatar\\": "packages/whiteki/avatar/src/"
+        }
+    }
 }
