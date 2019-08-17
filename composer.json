@@ -8,15 +8,27 @@
             "email": "whiteki@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "illuminate/support": "~5.1|^6.0"
+    },
     "autoload": {
         "psr-4": {
-            "Whiteki\\Avatar\\": "packages/whiteki/avatar/src/"
+            "Whiteki\\Avatar\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Whiteki\\Avatar\\": "packages/whiteki/avatar/src/"
+            "Whiteki\\Avatar\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Whiteki\\Avatar\\AvatarProvider"
+            ],
+            "aliases": {
+                "Avatar": "Whiteki\\Avatar\\Facades\\Avatar"
+            }
+        }
+    },
 }
